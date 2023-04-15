@@ -125,4 +125,60 @@ main_background - #fff
         border: 1px solid var(--link_color); 
     }
 
-    /*E hero_banner section */
+/*E hero_banner section */
+
+
+/*S main_section  */
+    .main_content-sect{
+        width: 100%;
+        background-color: var(--main_background);        
+    }
+    
+    .main-group{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        padding: 4.5rem;
+        
+    }
+
+    .main-group > div{
+        padding: 2.5rem;
+    }
+
+    .abstract-service-content{
+        width: 100%;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        display: flex;
+    }
+
+    .abstract-service-content  > div {
+        padding: 0 20px;
+    }
+
+    .abstract-service-content img{
+        width: 80px;
+        height: 80px;
+    }
+
+    .abstract-content > h2,p,a{
+        padding: 8px 0;
+    }
+
+    .abstract-content p{
+        font-size: 20px;
+    }
+
+    .abstract-content-link{
+        text-decoration: none;
+        color: var(--link_color);
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+
+
+/*E main_section  */
